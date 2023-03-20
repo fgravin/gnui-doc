@@ -1,0 +1,25 @@
+{
+  "name": "gnui-doc",
+  "version": "1.0.0",
+  "description": "Documentation for geonetwork-ui",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev src",
+    "docs:build": "vitepress build src",
+    "docs:preview": "vitepress preview src",
+    "format": "prettier --write --list-different ."
+  },
+  "keywords": [
+    "geonetwork",
+    "geonetwork-ui",
+    "metadata",
+    "doc"
+  ],
+  "author": "fgravin",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.8.5",
+    "vitepress": "^1.0.0-alpha.60"
+  }
+}
