@@ -4,12 +4,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Geonetwork-UI',
   description: 'Official documentation',
+  base: '/gnui-doc',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide', activeMatch: '/guide/' },
-      { text: 'Reference', link: '/doc', activeMatch: '/doc/' },
+      { text: 'Guide', link: '/guide/why', activeMatch: '/guide/' },
+      { text: 'Reference', link: '/doc/architecture', activeMatch: '/doc/' },
     ],
 
     sidebar: {
